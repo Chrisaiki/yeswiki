@@ -630,6 +630,7 @@ Par défaut, pour l'affichage des données sous forme cartographique, les cartes
 ## Sauvegardes
 
 Il est possible de réaliser une sauvegarde complète ou partielle de votre YesWiki en vous rendant dans la page [`GererSauvegardes`](?GererSauvegardes ':ignore') de votre site (aussi accessible en passant par [`GererSite`](?GererSite ':ignore') > `Sauvegardes`).
+Dans la version 4.4.5 on peut réaliser des sauvegardes par l'outil maintenance dans la page GererMisesAjour , accessible par l'onglet "mises à jours/Extensions" du menu.
 
 Comme les configurations de serveurs peuvent être très différentes d'un site à l'autre, il est peut-être nécessaire de réaliser quelques réglages au préalable pour que ça fonctionne.
 Par défaut la sauvegarde concerne tous les dossiers standard du wiki. Les paramètres avancés permettent de personnaliser la liste des dossiers à sauvegarder
@@ -652,6 +653,8 @@ Dans cet exemple d'arborescence, pour exclure le dossier "tools" , il faut écri
 ### Télécharger une sauvegarde
 
 Sur la page [`GererSauvegardes`](?GererSauvegardes ':ignore') , la liste des sauvegardes est disponible au téléchargement.
+Pour accèder à cette page, taper adressedevotresite/?GererSauvegardes dans la barre d'url.
+
 Pour une sauvegarde complète, le dossier archive contient les fichiers et la base de données (fichier sql présent dans le dossier private\backups )
 
 ### Résoudre les problèmes de sauvegarde
